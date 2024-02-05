@@ -1,7 +1,7 @@
 
 # Project Title
 
-Object recognition and detection using OpenCV 
+Data collection of a ABC company using Python, XML and XSLT for DOC
 
 
 ## Requirements
