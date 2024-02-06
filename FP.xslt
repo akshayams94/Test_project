@@ -2,14 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
     
-    <!-- Controls the kind of output. For more on these and other options, see here: https://www.w3schools.com/xml/ref_xsl_el_output.asp -->
     <xsl:output method="html" omit-xml-declaration="yes" indent="no"/>
 
     <!--
-        We want to transform an XML document into an HTML document. We know that every XML document has a root (/) element. 
-        This first element tells the processor what to do once it finds the root element in the XML. 
-        To start out, we want the result document to be an HTML document, so we specify the skeleton of an HTML document. 
-        Later, where we want to include other parts of the source XML, we add other templates and specify elements of the XML to select.
+       Used few concepts from HTML for my own purpose and covered all the concepts of XSLT in this project 
     -->
     <xsl:template match="/">
         <html>
@@ -17,10 +13,10 @@
             </head>
 
             <body style="width: 700px; margin: auto; margin-top: 1em; font-family: Helvetica, Arial, sans-serif">
-                <h1 class="text-primary">Our Staff</h1> At Basalt Veterinary Hospital, we value our staff! 
-                <!-- For every Group in the Biographies element, put the group name 
+                <h1 class="text-primary">Our Staff</h1> At Software Consultancy Firm, we value our Employee with their decisions including their own priorities for work environemnt, time and food! 
+                <!-- For every Group in the Company element, put the group name 
                     and then the info of each staff member in it. -->
-                <xsl:for-each select="Biographies/Group">
+                <xsl:for-each select="Company/Group">
                     <h2>
                         <!-- Spit out the value of the selected Group's type attribute. -->
                         <xsl:value-of select="@type"/>
@@ -51,9 +47,9 @@
                         <!-- Optional Element -->
                         <xsl:choose>
                             <!-- If this exists, include it. -->
-                            <xsl:when test="VeterinaryFocuses">
+                            <xsl:when test="TargetFocuses">
                                 <h4>Specialties:</h4>
-                                <xsl:for-each select="VeterinaryFocuses/Focus">
+                                <xsl:for-each select="TargetFocuses/Focus">
                                     <ul>
                                         <li>
                                             <xsl:value-of select="."/>
