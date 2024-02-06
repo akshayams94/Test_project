@@ -1,46 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="Sample.xslt"?>
 
-<Biographies>
-    <Group type="Veternarians">
-        <StaffMember role="Large Animal Veterinarian">
-            <RoleDescription>A founder and the Chief Executive Officer, Everett has led the company since 1996 when he and his brother Burt, a board-certified veterinary internist, opened their first specialty hospital in Tampa.</RoleDescription>
-            <Name>Everett Halvorson</Name>
+<Compnay>
+    <Group type="CEOs">
+        <StaffMember role="Super-Senior CEO">
+            <RoleDescription>A founder and the Chief Executive Officer, ABC has led the company since 2012 when she and his brother Balaji, a board-certified Software Engineer, opened their first branch in Vellore.</RoleDescription>
+            <Name>Akshaya</Name>
             <YearJoined>2011</YearJoined>
-            <VeterinaryFocuses>
-                <Focus>Equine Medicine</Focus>
-                <Focus>Biopsies</Focus>
-            </VeterinaryFocuses>
-            <Portrait image-source="https://i.imgur.com/CVKA4uL.png"/>
-            <Biography>Everett earned an undergraduate degree in international commerce from Utah State University and an Associates in finance and marketing from Kansas State. <br/> He enjoys walking his dog Fido and teaching his Parrot, Scuttle, new words.</Biography>
+            <TargetFocuses>
+                <Focus>Development</Focus>
+                <Focus>Education</Focus>
+            </TargetFocuse>
         </StaffMember>
-        <StaffMember role="Small Animal Veterinarian">
-            <RoleDescription>Any animals too big to carry see the Small Animal Veterinarian. She takes care of routine shots, well-checks and any other surgeries your pet might need.</RoleDescription>
-            <Name>Jane Bennett</Name>
+        <StaffMember role="Junior CEO">
+            <Name>Sumithra</Name>
             <YearJoined>2012</YearJoined>
-            <VeterinaryFocuses>
-                <Focus>Spaying and Neutering</Focus>
-                <Focus>Household Animals</Focus>
-            </VeterinaryFocuses>
-            <Portrait image-source="https://i.imgur.com/FUMDEhz.png"/>
-            <Biography>A native of northern Georgia, Jane holds undergraduate and veterinary degrees from New Mexico State University.<br/> In her career, she's dealt with 10s of thousands of animals. At home she has one cat named Fuzzer, and a dog named Buster. She says that her favorite thing to do is help people find a new pet.</Biography>
+            <TargetFocuses>
+                <Focus>Protect Firm rules</Focus>
+                <Focus>Manage healthy environment</Focus>
+            </TargetFocuses> 
         </StaffMember>
     </Group>
 
-    <Group type="Support Staff">
-        <StaffMember role="Practice Manager">
-            <RoleDescription> The Veterinary Practice Manager ensures the clinic runs smoothly on a daily basis, and acts as a liaison for clients, doctors, and veterinary support staff. They are dedicated to your pet receiving the best quality of care! </RoleDescription>
-            <Name>Tammy Jones</Name>
+    <Group type="Product Manager">
+        <StaffMember role="General Manager">
+            <RoleDescription> The General Manager ensures the Firm runs smoothly on a daily basis, and acts as a liaison for clients, users, and employees. They are dedicated to your product/service receiving the best quality of care! </RoleDescription>
+            <Name>Vidhya</Name>
             <YearJoined>2016</YearJoined>
-            <Portrait image-source="https://i.imgur.com/NPPl1VV.png"/>
-            <Biography> Tammy joined our team in August of 2016. She has been in veterinary medicine working as a receptionist and veterinary assistant for 13 years. She grew up in Eastern Missouri and has lived all over the United States. Robert, her husband, is in the U.S. Navy and they have four dogs: Whippet, Spooge, and Toby (all 3 are labs) and Sophie (a labradoodle). She is currently pursuing her B.S. in Business Administration with a concentration in Human Resource Management to be applied to her ultimate goal of becoming a Certified Veterinary Practice Manager (CVPM). Tammy's interests include kayaking, shopping, traveling, and hanging out with her dogs. </Biography>
         </StaffMember>
-        <StaffMember role="Receptionist">
-            <RoleDescription>Veterinary receptionists greet clients, set appointments, and process payments. They're the first person a visitor encounters in the vet's office, and as such should be calm and reassuring. Their tone and demeanor can help a pet owner and a pet feel less nervous about visiting the vet, which makes the experience easier for everyone.</RoleDescription>
-            <Name>Brittany Whelps</Name>
+        <StaffMember role="Release Manager">
+            <Name>Akshu</Name>
             <YearJoined>2019</YearJoined>
-            <Portrait image-source="https://i.imgur.com/TBpNXXK.png"/>
-            <Biography> Brittany was born and raised in Salt Lake City. She started in 2019. Brittany has worked with animals since she was a young teenager. When not at work she likes to spend time with her horse, Queenie, and her fur babies Britton and William. She also loves to play the guitar and knit.</Biography>
-        </StaffMember>
     </Group>
-</Biographies>
+</company>
